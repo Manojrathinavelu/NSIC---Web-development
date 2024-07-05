@@ -1,0 +1,38 @@
+
+.container{
+    margin-top: 150px;
+    background-color:rgba(236, 26, 166, 0.345);
+    height: 300px;
+    width: 300px;
+    border:5px solid rgb(167, 21, 162);
+    border-radius: 20px;
+   
+    
+}
+.background{
+    background-color: navy;
+}
+.buttons{
+    background-color: rgb(130, 17, 115);
+    margin-right: 19px;
+    margin-left: 25px;
+    margin-top: 25px;
+    height: 0.7cm;
+    border-radius: 10px;
+    color: darkblue;
+    font-size: medium;
+    cursor: pointer;
+}
+.buttons:hover{
+    transition: 0.5s;
+    border-width: 4px;
+}
+.textcolor{
+    border: none;
+    background-color: rgba(236, 26, 166, 0);
+    border-bottom: 5px solid  rgb(167, 21, 162);
+    cursor: pointer;
+}
+::-webkit-input-placeholder{
+    color:red;
+}
